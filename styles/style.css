@@ -37,6 +37,11 @@
   line-height: 95px; /* 131.944% */
 }
 /* Main section styles */
+main section {
+  margin-bottom: 120px;
+  width: 1320px;
+}
+
 .offer-section-content {
   text-align: center;
   margin-top: 120px;
@@ -86,8 +91,8 @@
   gap: 40px;
 }
 
-.midnight-party-banner-content{
-    padding: 126px 40px 140px 126px;
+.midnight-party-banner-content {
+  padding: 126px 40px 140px 126px;
 }
 .midnight-party-banner-title {
   color: #fff;
@@ -115,12 +120,129 @@
 }
 
 .midnight-party-banner a {
-    text-decoration: none;
-    margin-left: 32px;
+  text-decoration: none;
+  margin-left: 32px;
+  margin-bottom: 142px;
 }
 
 .midnight-party-banner img {
-    margin: 68px 130px;
+  margin: 68px 130px;
 }
+
+/* Midnight party description */
+
+.midnight-party-description-content {
+  color: #070211;
+  font-family: Inter;
+  padding: 110px 300px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.midnight-party-description-content .title {
+  color: #f00;
+}
+
+.midnight-party-description-content button {
+  border-radius: 8px;
+  border: none;
+  background: #f00;
+  padding: 16px 32px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* New best offer */
+
+.new-best-offer {
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+.new-best-offer-left-column h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.new-best-offer-left-column h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.new-best-offer-left-column p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.new-best-offer-middle-column {
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+
+.new-best-offer-right-column h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.new-best-offer-right-column p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+/* portfolio section */
+.portfolio-descriptions h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-descriptions h2 {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 22px;
+}
+
+.portfolio-descriptions p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    padding-right: 424px;
+    margin-bottom: 48px;
+}
+
+
+
 
 /* Footer section styles */
