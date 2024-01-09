@@ -215,6 +215,60 @@ main section {
   line-height: 32px; /* 160% */
 }
 
+/* Discount section */
+.discount {
+    background-image: url('../assets/images/discount-bottom.png'), url('../assets/images/discount-girl.png');
+    background-repeat: no-repeat;
+    background-position: bottom, bottom 30% right;
+}
+
+.discount-content {
+  text-align: center;
+}
+
+.discount-moto {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.discount-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.discount-title .holiday {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.discount-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+.discount-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.image-right {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* portfolio section */
 .portfolio-descriptions h4 {
   color: #f00;
@@ -326,25 +380,25 @@ footer {
 }
 
 .footer-content {
-    padding: 120px 140px;
+  padding: 120px 140px;
 }
 
 .footer-content hr {
-    margin: 50px 0px;
+  margin: 50px 0px;
 }
 
-.footer-top{
-display: flex;
-justify-content: space-between;
+.footer-top {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-middle {
-    text-align: center;
+  text-align: center;
 }
-.footer-middle a{
-margin-right: 24px;
+.footer-middle a {
+  margin-right: 24px;
 }
-.footer-bottom{
-display: flex;
-justify-content: space-between;
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
 }
