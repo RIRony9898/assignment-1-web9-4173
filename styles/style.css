@@ -38,4 +38,37 @@
   line-height: 95px; /* 131.944% */
 }
 /* Main section styles */
+.offer-section-content {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.offer-section-content h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.offer-section-content p {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+
+.offer-section-content h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+  margin-top: 20px;
+}
+
+.offer-section-content img {
+  width: 802.9px;
+  height: 500px;
+}
 /* Footer section styles */
